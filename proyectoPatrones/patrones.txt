@@ -1,0 +1,45 @@
+Singleton - 1 profesor  --- Angel
+Builder - Construir un curso (Certificacion si/no)  Angelica - Angel
+Adapter - Listar cursos - XML base de datos () ---- Fernando 
+Decorator - Verificar cedula de registro ---- Fernando
+State - Curso disponible, lleno, ultimos cupos - no disponible  (segun condiciones - actualizar para el front) --- Angelica
+Observer - escuchar cambios de estados (Flutter  patron integrado) --- Pablo
+
+----
+Listar cursos (api de cursos - front muestra)
+Listar cursos registrados (api de cursos registrados - Front muetra)
+Mostrar docente unico (api de docente - front muetra)
+Registar al curso (api registro - Base)
+
+----
+Estudiante
+cedula
+correo 
+Nombre 
+Apellido
+
+
+Docente
+cedula
+correo 
+Nombre 
+Apellido
+Titulo Academico
+
+Curso
+Nombre
+Fecha Inicio 
+fecha fin 
+Estado 
+CostoTipo 
+Capacidad 
+- Certificado
+- asesoramiento
+- recursos 
+
+
+Incripcion 
+Estudiante
+curso
+fecha
+
