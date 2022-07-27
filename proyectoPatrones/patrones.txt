@@ -28,7 +28,7 @@ Titulo Academico
 
 Curso
 Nombre
-Fecha Inicio 
+Fecha Inicio z
 fecha fin 
 Estado 
 CostoTipo 
