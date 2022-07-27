@@ -1,7 +1,4 @@
-from django.shortcuts import render
-from rest_framework import viewsets, permissions
-from rest_framework.parsers import MultiPartParser, FormParser
-
+from rest_framework import viewsets
 from Curso.models import Course
 from Curso.serializers import CourseSerializer
 

@@ -7,4 +7,4 @@ image = serializers.ImageField(required=False)
 class CourseSerializer(serializers.ModelSerializer):
     class Meta:
         model = Course
-        fields = ["name", "start_date", "end_date", "price", "capacity", "image", "state"]
+        fields = '__all__'
