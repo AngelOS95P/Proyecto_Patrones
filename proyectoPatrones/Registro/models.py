@@ -1,10 +1,12 @@
 from datetime import datetime
+from pyexpat import model
 from django.db import models
 from Curso.models import Course
+from Usuario.models import Student
 
 
 class Inscription(models.Model):
-    student = models.CharField(max_length=100)
+    student = models.ForeignKey(Student, on_delete=models.CASCADE)
     course = models.ForeignKey(Course, on_delete=models.CASCADE)
     date = models.DateField(default=datetime.date(datetime.now()))
 
@@ -15,6 +17,7 @@ class Inscription(models.Model):
         super().save(*args, **kwargs)
 
         course = Course.objects.get(id=self.course.id)
+        student =Student.objects.get(name=self.student.name)
 
         if course.max_capacity == (course.actual_capacity + 1):
             print("Curso lleno.")

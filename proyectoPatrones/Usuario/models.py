@@ -31,7 +31,7 @@ class TeacherBaseModel (models.Model):
 class Teacher (TeacherBaseModel):
     name    =models.CharField('Nombres',max_length=30,default='Pedro')
     lastName=models.CharField('Apellido',max_length=30,default='Cordero')
-    idNumber=models.CharField('Cedula',max_length=10,default='0105913891')
+    idNumber=models.CharField('Cedula',max_length=10,default='0105913881')
     email   = models.EmailField('Correo',max_length=50, default='pedro@ups.edu.ec')
     academicTitle  = models.CharField('Titulo academico',max_length=100,default='Ingeniero de Sistemas')
     telephone   = models.CharField('Telefono',max_length=10,default='0987654321') 
@@ -43,5 +43,6 @@ class Student (models.Model):
     email = models.EmailField('Correo',max_length=50)
     birthday=models.DateField(blank=True,null=True)
 
+
     def __str__(self):
-        return str(self.id)
+        return str(self.name)
