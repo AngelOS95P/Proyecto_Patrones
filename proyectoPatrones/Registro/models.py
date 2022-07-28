@@ -17,7 +17,7 @@ class Inscription(models.Model):
         super().save(*args, **kwargs)
 
         course = Course.objects.get(id=self.course.id)
-        student =Student.objects.get(id=self.save_base.id)
+        student =Student.objects.get(name=self.student.name)
 
         if course.max_capacity == (course.actual_capacity + 1):
             print("Curso lleno.")
