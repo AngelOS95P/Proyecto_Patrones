@@ -15,4 +15,36 @@
         <actual_capacity>5</actual_capacity>
         <max_capacity>15</max_capacity>
     </Curso>
+    <Curso>
+        <name>Carpinteria</name>
+        <start_date>03/01/2022</start_date>
+        <end_date>30/08/2022</end_date>
+        <price>150</price>
+        <actual_capacity>20</actual_capacity>
+        <max_capacity>20</max_capacity>
+    </Curso>
+    <Curso>
+        <name>Musica</name>
+        <start_date>01/09/2022</start_date>
+        <end_date>20/12/2022</end_date>
+        <price>0</price>
+        <actual_capacity>0</actual_capacity>
+        <max_capacity>15</max_capacity>
+    </Curso>
+    <Curso>
+        <name>Python</name>
+        <start_date>01/01/2023</start_date>
+        <end_date>28/02/2023</end_date>
+        <price>100</price>
+        <actual_capacity>0</actual_capacity>
+        <max_capacity>20</max_capacity>
+    </Curso>
+    <Curso>
+        <name>Java</name>
+        <start_date>01/01/2023</start_date>
+        <end_date>28/02/2023</end_date>
+        <price>100</price>
+        <actual_capacity>0</actual_capacity>
+        <max_capacity>20</max_capacity>
+    </Curso>
 </Cursos>
