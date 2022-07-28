@@ -5,7 +5,6 @@ import xmltodict
 import json
 
 from rest_framework import viewsets
-from django.core import serializers as core_serializers
 from Curso.models import Course
 from Curso.serializers import CourseSerializer
 from django.http import HttpResponse
