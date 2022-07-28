@@ -22,7 +22,6 @@ class Builder (ABC):
     def curso_recursos(self) -> None:
         pass
 
-
 class ConcreteBuilder(Builder):
     """
     The Concrete Builder classes follow the Builder interface and provide
