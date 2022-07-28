@@ -1,0 +1,18 @@
+<Cursos>
+    <Curso>
+        <name>Cocina</name>
+        <start_date>03/01/2022</start_date>
+        <end_date>25/04/2022</end_date>
+        <price>20</price>
+        <actual_capacity>15</actual_capacity>
+        <max_capacity>15</max_capacity>
+    </Curso>
+    <Curso>
+        <name>Pintura</name>
+        <start_date>03/08/2022</start_date>
+        <end_date>28/09/2022</end_date>
+        <price>0</price>
+        <actual_capacity>5</actual_capacity>
+        <max_capacity>15</max_capacity>
+    </Curso>
+</Cursos>
